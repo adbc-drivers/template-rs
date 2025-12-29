@@ -1,0 +1,13 @@
+[package]
+name = "{{project-name}}"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+adbc_core = "0.21.0"
+adbc_ffi = "0.21.0"
+arrow-array = "57.1.0"
+arrow-schema = "57.1.0"
+
+[lib]
+crate-type = ["lib", "cdylib"]

@@ -1,0 +1,2 @@
+[placeholders]
+database-name = { prompt = "Database Name", type = "string" }
