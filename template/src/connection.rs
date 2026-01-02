@@ -137,18 +137,18 @@ impl Optionable for AdbcConnection {
     }
 
     fn get_option_string(&self, key: Self::Option) -> Result<String> {
-        Err(ErrorHelper::set_unknown_option(&key).to_adbc())
+        Err(ErrorHelper::get_unknown_option(&key).to_adbc())
     }
 
     fn get_option_bytes(&self, key: Self::Option) -> Result<Vec<u8>> {
-        Err(ErrorHelper::set_unknown_option(&key).to_adbc())
+        Err(ErrorHelper::get_unknown_option(&key).to_adbc())
     }
 
     fn get_option_int(&self, key: Self::Option) -> Result<i64> {
-        Err(ErrorHelper::set_unknown_option(&key).to_adbc())
+        Err(ErrorHelper::get_unknown_option(&key).to_adbc())
     }
 
     fn get_option_double(&self, key: Self::Option) -> Result<f64> {
-        Err(ErrorHelper::set_unknown_option(&key).to_adbc())
+        Err(ErrorHelper::get_unknown_option(&key).to_adbc())
     }
 }
