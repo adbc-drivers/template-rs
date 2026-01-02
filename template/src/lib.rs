@@ -2,6 +2,7 @@ mod batch_reader;
 mod connection;
 mod database;
 mod driver;
+mod error;
 mod statement;
 
 use adbc_ffi::export_driver;
