@@ -13,7 +13,7 @@ cargo install cargo-generate
 Generate a new ADBC driver project:
 
 ```bash
-cargo generate adbc-drivers/template
+cargo generate adbc-drivers/template-rs
 ```
 
 ## License
