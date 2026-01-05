@@ -1,3 +1,8 @@
+<!--
+Copyright 2026 ADBC Drivers Contributors
+SPDX-License-Identifier: Apache-2.0
+-->
+
 # ADBC Driver Template
 
 A template for ADBC driver development in Rust.
