@@ -7,4 +7,4 @@ mod statement;
 
 use adbc_ffi::export_driver;
 
-export_driver!(AdbcDriverInit, driver::AdbcDriver);
+export_driver!(AdbcDriver{{ database-name | replace: " ", "" }}Init, driver::AdbcDriver);
