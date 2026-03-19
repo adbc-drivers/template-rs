@@ -4,11 +4,11 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-adbc_core = "0.20.0"
-adbc_ffi = "0.20.0"
-arrow-array = "56.2.0"
-arrow-schema = "56.2.0"
-driverbase = { git = "https://github.com/adbc-drivers/driverbase-rs.git" }
+adbc_core = "0.22.0"
+adbc_ffi = "0.22.0"
+arrow-array = "57.2.0"
+arrow-schema = "57.2.0"
+driverbase = { git = "https://github.com/adbc-drivers/driverbase-rs.git", rev = "5805fd90839fe3016055c0ff62fdf24be456fac5" }
 
 [lib]
 crate-type = ["lib", "cdylib"]
