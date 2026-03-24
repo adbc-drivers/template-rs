@@ -1,1 +1,21 @@
-/target
+# editor and tool cruft
+.claude/
+*~
+.cache/
+\#*
+__pycache__
+*.pyc
+*.pyo
+
+# pixi environments
+.pixi/*
+!.pixi/config.toml
+
+build/
+target/
+
+# adbc-drivers make script
+.doit.db
+
+# validation
+validation-report.xml
